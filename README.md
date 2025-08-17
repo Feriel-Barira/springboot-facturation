@@ -51,19 +51,19 @@ Le backend calcule automatiquement :
 ---
 
 ### Configuration du fichier application.properties
-# Configuration de la base de données PostgreSQL
+#### Configuration de la base de données PostgreSQL
 spring.datasource.url=jdbc:postgresql://localhost:5433/facturation_db
 spring.datasource.username=VOTRE_USERNAME
 spring.datasource.password=VOTRE_MOT_DE_PASSE
 spring.datasource.driver-class-name=org.postgresql.Driver
 
-# Configuration JPA/Hibernate
+#### Configuration JPA/Hibernate
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 
 ---
 ### Tech Stack
--Java 17+
--Spring Boot 3.x
--Base de données PostgreSQL
--Postman pour tester les endpoints
+- Java 17+
+- Spring Boot 3.x
+- Base de données PostgreSQL
+- Postman pour tester les endpoints
